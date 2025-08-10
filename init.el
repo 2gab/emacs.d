@@ -31,7 +31,8 @@
 		      copilot ; An Emacs plugin for GitHub Copilot. https://github.com/copilot-emacs/copilot.el
 		      highlight-indent-guides ; An emacs plugin for guide identation. https://github.com/DarthFennec/highlight-indent-guides
 		      rainbow-mode ; Colorize color names in buffers. https://elpa.gnu.org/packages/rainbow-mode.html
-                      ))
+              pdf-tools ; For reading pdf in Emacs, better than doc-view. https://elpa.nongnu.org/nongnu/pdf-tools.html
+					  ))
 
 (dolist (p my-packages)
   (when (not (package-installed-p p))
